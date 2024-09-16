@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morse Code Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Morse Code Game</h1>
+    
+    <div class="game-container">
+        <div class="section">
+            <h2>Encode to Morse Code</h2>
+            <input type="text" id="inputText" placeholder="Enter text here">
+            <button id="encodeButton">Encode</button>
+            <p>Encoded Morse Code:</p>
+            <p id="encodedMorse"></p>
+        </div>
+        
+        <div class="section">
+            <h2>Decode Morse Code</h2>
+            <input type="text" id="inputMorse" placeholder="Enter Morse code here">
+            <button id="decodeButton">Decode</button>
+            <p>Decoded Text:</p>
+            <p id="decodedText"></p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
